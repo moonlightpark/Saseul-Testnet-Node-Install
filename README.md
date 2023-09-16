@@ -35,8 +35,11 @@ bash in docker.
 ; You can write relative paths or absolute paths.
 
 [Directory]
+
 log_file = "saseul.log"
+
 err_file = "debug.log"
+
 data_dir = "data"
 
 ​
@@ -46,8 +49,11 @@ data_dir = "data"
 ; partial: When the capacity is full, keep only a partial of the data.
 
 [Node]
+
 ledger_type = "partial"
+
 database = false
+
 mining = false
 
 ​
@@ -61,9 +67,13 @@ data_dir = "data"
 [Database]
 
 mysql_host = "localhost"
+
 mysql_port = "3306"
+
 mysql_user = ""
+
 mysql_password = ""
+
 mysql_database = ""
 
 ​
@@ -78,9 +88,13 @@ peers[] = "test.saseul.net"
 ​
 
 ; This is information of genesis block.
+
 network_name = "AMERICANO TEST NETWORK"
+
 system_nonce = "A cup of coffee for relaxation."
+
 genesis_address = "51d6429fd0641f37c125eb6d0d3e269d1283588dc612"
+
 manager_addresses[] = "51d6429fd0641f37c125eb6d0d3e269d1283588dc612"
 
 :wq   //save and exit vi
