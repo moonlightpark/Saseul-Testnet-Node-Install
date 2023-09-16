@@ -87,10 +87,15 @@ manager_addresses[] = "51d6429fd0641f37c125eb6d0d3e269d1283588dc612"
 ​
 
 [root@ee1de1d0a65c saseul-network]# exit
+
 [23/09/16 9:07:27] ➜  ~  docker restart saseul-node   // docker restart
+
 [23/09/16 9:19:32] ➜  ~ docker exec -i saseul-node saseul-script forcesync --peer test.saseul.net
+
 [23/09/16 9:19:32] ➜  ~ docker exec -i saseul-node saseul-script start
+
 [23/09/16 9:19:32] ➜  ~ docker exec -i saseul-node saseul-script startmining
+
 [23/09/16 9:19:32] ➜  ~ docker exec -i saseul-node saseul-script info
 
 ​
